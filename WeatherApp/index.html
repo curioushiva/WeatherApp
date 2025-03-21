@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Favicons -->
+    <link href="assets/ani/favicon.png" rel="icon">
+    <link href="assets/ani/appleicon.png" rel="apple-touch-icon">
+    <!-- Icons Used  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Google font used  -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Css for page -->
+    <link rel="stylesheet" href="assets/cns/style.css">
+</head>
+
+<body>
+    <!-- Main Page -->
+    <div class="page">
+
+        <!-- Just a Prank -->
+        <div class="DontDo">
+            <h1>Dead serious ?</h1>
+            <h2>Hit that refresh, like now !</h2>
+        </div>
+
+        <!-- Main Conatiner -->
+        <div class="container">
+
+            <!-- Weather Type Bg Img -->
+            <div class="WImgCont">
+                <img src="assets/ani/lightdrizzle.jpg" alt="">
+            </div>
+
+            <!-- Upper Border -->
+            <div class="UpBorder">
+                <div class="red"><i class="ri-close-line"></i></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+            </div>
+
+            <!-- Navbar - App Name & Search Box -->
+            <div class="nav">
+                <div class="heading">
+                    <h1>Weather App</h1>
+                </div>
+                <div class="searchBox">
+                    <input type="text" placeholder="Enter City Name">
+                    <button onclick=""><i class="ri-search-line"></i></button>
+                </div>
+            </div>
+
+            <!-- Message Hanlder -->
+            <div class="MsgHandler">
+                <h1>W / E / L : </h1>
+                <h2>Yo ! HI Enter Your City Name</h2>
+            </div>
+
+            <!-- Weather Data -->
+            <div class="WeatherCont">
+
+                <!-- Left Weather Data -->
+                <div class="WL">
+                    <!-- Temprature -->
+                    <div class="degree">
+                        <h1><span>0</span><sup> <span style="font-size: 25px;" class="C">°C</span><i> | </i><span
+                                    class="F">°F</span> </sup>
+                        </h1>
+                    </div>
+                    <!-- Weather About  -->
+                    <div class="about">
+                        <p>Weather</p>
+                        <!-- aqi -->
+                        <div class="aqi">
+                            <h2>[ <i class="ri-meteor-fill"></i> <span>AQI : 0-00 Good</span> ]</h2>
+                        </div>
+                    </div>
+                    <div class="HWP">
+                        <div class="humidity">
+                            <div class="h-info">
+                                <i class="ri-water-percent-line"></i>
+                                <h2>Humidity</h2>
+                            </div>
+                            <p><span>0</span>%</p>
+                        </div>
+                        <div class="wind">
+                            <div class="w-info">
+                                <i class="ri-windy-line"></i>
+                                <h2>Wind Speed</h2>
+                            </div>
+                            <p><span>0</span> Km/h</p>
+                        </div>
+                        <div class="precipi">
+                            <div class="p-info">
+                                <i class="ri-drizzle-line"></i>
+                                <h2>Precipitation</h2>
+                            </div>
+                            <p><span>0</span>mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right City Data -->
+                <div class="WR">
+                    <!-- City About -->
+                    <div class="city">
+                        <h1>Loaction</h1>
+                        <h2>DAY TIME</h2>
+                    </div>
+                    <div class="currentTime">
+                        <h1>00/00/00, 00:00 AM</h1>
+                        <h2>Date & Time Now</h2>
+                    </div>
+                    <div class="updateTime">
+                        <h1>00:00 AM</h1>
+                        <h2>Latest Weather Update</h2>
+                    </div>
+                    <!-- aqi -->
+                    <div class="aqi">
+                        <h2><i class="ri-meteor-fill"></i> <span>AQI : 0-00 Good</span></h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <div class="devname">
+                    <h2><a href="https://www.instagram.com/curioushiva/" target="_blank"
+                            rel="noopener noreferrer">Crafted by Curious</a></h2>
+                </div>
+                <div class="devsocials">
+                    <a href="https://www.instagram.com/curioushiva/" target="_blank"><i
+                            class="ri-instagram-fill"></i></a>
+                    <a href="https://github.com/curioushiva" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/curioushiva/" target="_blank"> <i
+                            class="ri-linkedin-box-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Js file -->
+    <script src="assets/cns/main.js"></script>
+</body>
+
+</html>
